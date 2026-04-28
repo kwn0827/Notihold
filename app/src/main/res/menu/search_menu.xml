@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_search"
+        android:title="検索"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_date_search"
+        android:title="日付で検索"
+        android:icon="@android:drawable/ic_menu_today"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_clear_date_filter"
+        android:title="日付フィルターをクリア"
+        android:icon="@drawable/ic_clear_date"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_move_all_to_trash"
+        android:title="すべての通知をゴミ箱へ"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_trash"
+        android:title="ゴミ箱を空にする"
+        android:visible="false"
+        app:showAsAction="never" />
+        
+</menu>

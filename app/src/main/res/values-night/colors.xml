@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ダークモード用の色定義（コントラスト重視） -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#CFCFCF</color>
+    <color name="background_card">#1E1E1E</color>
+
+    <!-- スター用の色（ダークモード用により明るいイエロー） -->
+    <color name="star_activated">#FFD54F</color>
+    <color name="star_normal">#9AA0A6</color>
+
+    <color name="star_on">#FFD54F</color>
+    <color name="star_off">#757575</color>
+</resources>

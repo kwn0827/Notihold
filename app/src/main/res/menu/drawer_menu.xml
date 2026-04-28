@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/nav_all"
+        android:title="すべての通知"
+        android:icon="@android:drawable/ic_menu_agenda" />
+        
+    <item
+        android:id="@+id/nav_starred"
+        android:title="スター付き"
+        android:icon="@android:drawable/btn_star_big_on" />
+        
+    <item
+        android:id="@+id/nav_trash"
+        android:title="ゴミ箱"
+        android:icon="@android:drawable/ic_menu_delete" />
+        
+    <item android:title="設定">
+        <menu>
+            <item
+                android:id="@+id/nav_theme"
+                android:title="テーマ設定"
+                android:icon="@android:drawable/ic_menu_preferences" />
+            <item
+                android:id="@+id/nav_retention"
+                android:title="保存期間"
+                android:icon="@android:drawable/ic_menu_recent_history" />
+        </menu>
+    </item>
+    
+</menu>

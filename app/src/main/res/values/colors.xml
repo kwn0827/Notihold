@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- アダプティブアイコンの背景色 (Dark Grey) -->
+    <color name="ic_launcher_background">#121212</color>
+
+    <!-- ライトモード用の色定義 -->
+    <color name="text_primary">#1D1B20</color>
+    <color name="text_secondary">#49454F</color>
+    <color name="background_card">#FFFFFF</color>
+
+    <!-- スター用の色（Material Amber 500） -->
+    <color name="star_activated">#FFC107</color>
+    <color name="star_normal">#757575</color>
+
+    <!-- 以前の色定義（互換性のために残すか、整理） -->
+    <color name="star_on">#FFB300</color>
+    <color name="star_off">#9E9E9E</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="すべての通知" />
+        <item
+            android:id="@+id/nav_starred"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="スター付き" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="ゴミ箱" />
+    </group>
+
+    <item
+        android:id="@+id/nav_label_group"
+        android:title="ラベル">
+        <menu>
+            <!-- 動的に追加されるラベルはこの中に入ります -->
+        </menu>
+    </item>
+
+    <item android:title="ラベルの管理">
+        <menu>
+            <item
+                android:id="@+id/nav_create_label"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="新しいラベルを作成" />
+            <item
+                android:id="@+id/nav_delete_label"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="ラベルを削除" />
+        </menu>
+    </item>
+
+    <item android:title="その他">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="設定" />
+        </menu>
+    </item>
+</menu>

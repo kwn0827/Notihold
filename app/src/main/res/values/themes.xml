@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorTertiary">#FFC107</item> <!-- Star color (Amber) -->
+
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurfaceContainer</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication">
+        <!-- Light mode specific settings -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Shape Definitions -->
+    <style name="ShapeAppearance.Notihold.AppIcon" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Notihold.Card" parent="ShapeAppearance.Material3.Corner.ExtraLarge">
+        <item name="cornerSize">28dp</item>
+    </style>
+</resources>
