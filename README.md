@@ -45,7 +45,7 @@ Gradle によるビルド自動化を行い、GitHub Releases を通じたデプ
 | <img src="images/main.jpg" width="200"> | <img src="images/setting.jpg" width="200"> |
 
 ## 📦 インストール方法
-[Releases](https://github.com/kwn0827/NotiHold/releases) ページから最新の `app-release.apk` をダウンロードし、Android 端末にインストールしてください。
+[Releases](https://github.com/kwn0827/NotiHold/releases) ページから最新の `Notihold.apk` をダウンロードし、Android 端末にインストールしてください。
 ※本アプリは通知へのアクセス権限を必要とします。インストール後、設定画面から許可を行ってください。
 
 ## 📄免責事項 (License & Disclaimer)
